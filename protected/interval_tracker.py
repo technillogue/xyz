@@ -1,50 +1,66 @@
 import json
 import csv
-from itertools import groupby
-from datetime import datetime as dt
+from collections.abc import Iterator
+from itertools import groupby, islice
+from datetime import timedelta, datetime as dt
 from json2html import json2html
 from flask import Flask, request, render_template, Markup
 
 
 class Counts:
-    def __init__(self):
+    def __init__(self) -> None:
         try:
-            self.log = [dt.fromisoformat(row[0]) for row in csv.reader(open("counts.csv"))]
+            self.log = [
+                dt.fromisoformat(row[0])
+                for row in csv.reader(open("counts.csv"))
+            ]
         except FileNotFoundError:
             self.log = []
         self.day_counts = self.count_days()
         self.logfile = open("counts.csv", "a")
         self.writer = csv.writer(self.logfile)
 
-    def count_days(self):
-        return  [len(list(group)) for key, group in groupby(self.log, key=lambda ts:ts.day)]
+    def count_days(self, reverse: bool = True) -> Iterator[int]:
+        if not self.log:
+            return
+        prev_date = (self.log[-1] if reverse else self.log[0]).date()
+        groups = groupby(
+            reversed(self.log) if reverse else self.log, dt.date
+        )
+        for date, events in groups:
+            for missing_day in range(abs(date - prev_date).days - 1):
+                yield 0
+            prev_date = date
+            yield len(list(events))
+        return
 
-    def click(self):
+    def click(self) -> None:
         now = dt.now()
         self.writer.writerow([now.isoformat()])
         self.logfile.flush()
-        if self.log[-1].day == now.day:
-            self.day_counts[-1] += 1
-        else:
-            self.day_counts.append(1)
         self.log.append(now)
+        # self.stats = self.asdict()
 
-    def asdict(self):
-        if self.log:
-            return {
-                "elapsed": str(dt.now() - self.log[-1]),
-                "today": day_counts[-1],
-                "last 7 day average": sum(day_counts[-7:])/len(day_counts[-7:]),
-            }
-        else:
+    def asdict(self) -> dict[str, str]:
+        if not self.log:
             return {}
+        recent_counts = list(islice(self.count_days(), 7))
+        elapsed = dt.now() - self.log[-1]
+        return {
+            "elapsed": str(elapsed - timedelta(microseconds=elapsed.microseconds)),
+            "today": str(recent_counts[0]),
+            "last 7 day average": str(
+                round(sum(recent_counts[:7]) / len(recent_counts[:7]), 3)
+            ),
+        }
 
 
 app = Flask(__name__)
 counts = Counts()
 
+
 @app.route("/")
-def foo():
+def index() -> str:
     if request.args:
         resp = ", ".join(f"{k} is {v}" for k, v in request.args.items())
         return f"you said {resp}. good for you!"
@@ -52,8 +68,9 @@ def foo():
     <!DOCTYPE html>welcome to my webbed sight.<br/><br/>my content is currently at <a href="https://technillogue.github.io">technillogue.github.io</a>
     """
 
+
 @app.route("/counter", methods=["GET", "POST"])
-def index():
+def counter() -> str:
     if request.method == "POST":
         counts.click()
     return render_template(
@@ -61,9 +78,11 @@ def index():
     )
 
 
+
 @app.route("/counter/api")
-def api():
+def api() -> str:
     return json.dumps(counts.asdict())
 
-if __name__=="__main__":
+
+if __name__ == "__main__":
     app.run()

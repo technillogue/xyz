@@ -3,11 +3,11 @@
     <head>
         <script type="text/javascript">
             function AutoRefresh(n) {
-            	setTimeout("location.reload(true);", 1000 * n)
+            	setTimeout("window.location.replace('#'); location.reload(true);", 1000 * n)
             }
         </script>
     </head>
-    <body onload = "AutoRefresh(10);">
+    <body onload = "AutoRefresh(60);">
         <div style="margin:10%">
         <form action="#click" method="post">
             <input type="submit" name="click" value="click" />
