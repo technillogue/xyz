@@ -44,8 +44,8 @@
       "type": "Slide",
       "z": 0,
       "selected": false,
-      "x": -1020,
-      "y": 333,
+      "x": -833,
+      "y": 183,
       "scale": {
         "x": 1.4135135428444294,
         "y": 1.4135135428444294
@@ -125,8 +125,8 @@
       "type": "Slide",
       "z": 0,
       "selected": false,
-      "x": -950,
-      "y": 397,
+      "x": -763,
+      "y": 247,
       "scale": {
         "x": 0.2565119013137399,
         "y": 0.2565119013137399
@@ -152,8 +152,8 @@
       "type": "Slide",
       "z": 0,
       "selected": false,
-      "x": 672,
-      "y": 300,
+      "x": 346,
+      "y": 177,
       "scale": {
         "x": 2.8,
         "y": 2.8
@@ -163,43 +163,46 @@
       "components": [
         {
           "type": "TextBox",
-          "x": 107,
-          "y": 33,
+          "x": 88,
+          "y": 42,
           "text": "<p style=\"text-align: center;\">timberland<br />\n⇢⇢⇢</p>\n",
           "scale": {
             "x": 1.6500461680517082,
             "y": 1.6500461680517082
-          }
+          },
+          "selected": false
         },
         {
           "type": "TextBox",
-          "x": 91,
-          "y": 145,
+          "x": 72,
+          "y": 154,
           "text": "<p style=\"text-align: center;\">⇢⇢⇢<br />\n<span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">runtime<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;↳</span></span></p>\n",
           "selected": false
         },
         {
           "type": "TextBox",
-          "x": 5,
-          "y": 120,
+          "x": -14,
+          "y": 129,
           "text": "<p><span style=\"font-size:22px;\"><span style=\"font-family: arial, helvetica, sans-serif; background-color: initial;\">[mkenv] &rarr;[check] &rarr; [publish]</span></span></p>\n",
           "scale": {
             "x": 0.7694681367450247,
             "y": 0.7694681367450247
-          }
+          },
+          "selected": false
         },
         {
           "type": "TextBox",
-          "x": 275,
-          "y": 269,
+          "x": 183,
+          "y": 295,
           "text": "<p><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">[deploy]</span></span></p>\n\n<p style=\"text-align: right;\"><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">↳</span></span></p>\n",
           "selected": false
         },
         {
           "type": "TextBox",
-          "x": 439,
-          "y": 374,
-          "text": "<p><font face=\"arial, helvetica, sans-serif\"><span style=\"font-size: 26px;\">[simulate]</span></font></p>\n"
+          "x": 319,
+          "y": 412,
+          "text": "<p><font face=\"arial, helvetica, sans-serif\"><span style=\"font-size: 26px;\">[simulate]</span></font></p>\n",
+          "selected": false
         },
         {
           "type": "TextBox",
@@ -219,13 +222,14 @@
         },
         {
           "type": "TextBox",
-          "x": 8,
-          "y": 12,
+          "x": -11,
+          "y": 21,
           "text": "<p><img src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVFBcUFRMXGBQYGxseGBsaGxgdGB0YGxsYGxgeGiAbICwkHh0pIh0XJTYlKS8yMzMzGyI5PjkxPSwyNDABCwsLEA4QHRISHT0qJCc0NTU0Mj0wOD0yMzUyMjI2ODQ0MjI0NjU1OzI5MjIyMjI4NDQzMjIyPDI9MjIyMj0yMv/AABEIAKgBKwMBIgACEQEDEQH/xAAbAAEAAwEBAQEAAAAAAAAAAAAABQYHBAEDAv/EAEYQAAEDAgIFCQYDBQcEAwEAAAEAAgMEEQUSBhMhMYEHFCJBUWFxkaEyQmKCkqJScrIVIySx0RYzNDVFU8Fjg5PCQ1TTJf/EABoBAQACAwEAAAAAAAAAAAAAAAAEBQIDBgH/xAAtEQEAAgEDAgQFBAMBAAAAAAAAAQIDBBESMVEFIWGxEzJBcZEiodHwQoHBM//aAAwDAQACEQMRAD8AuCIi4Z0YiIgIiICIiAiIvAREQERF6CIvHuAFyQB2nYE2YvUUFW6WUUXtVLCexl3n7QbcVHxaXST7KPD6ie+55bkZ9QBHmQpWPRZ8ny1n292q2fHXrK2rwnr6lXY8Jxyo9o09Iw+D3gcM4vxC6ouTFr9tZXVNQb3LQcjPCxzbPCynY/CMk/PaI/dHvrqx8sbva7SajhvnqWXG9rTmd5MuQuzDMRjqI2yxOzMdexIINwSDcHvClMM0Kw+C2SkjuPeeDI7gZCbcFSdB2aiSsojf9xO7KD+B1w23dZgPzL3V+G0w4ZtWZmYY4dXa9+MwtyIipViIiL0EREBERAREQEREBERAREQEREBERAREQEREBFE45pDBSW1znZnXyta0uJta/cN43lRUekVbP/hMLmcOp8vQZ62afqUrDos2WN618u7RfPSk7TK1L8yyNaMznBre0kAeZUBFo3jM/wDe1UNK0+7E3O/z/o9d1NyXUpIdVT1FU/43lre+wHSH1Kfj8HvPz2iPt5o19dH+MOOu0yoYt9Q157I7v9W9H1XFFpTUz7KTDZ5Adz3jIzzsW/cFf8M0Zo6exhpImOG52QF/1uu71Uup+PwvBXrvP+/4R76zJPTyZpFgWNz2L5qekad4aM7x3e8PJwXVT8l0LyHVdXU1Lh1Oflbfw6Thwcr+9wAuSABvJ2DzKr2JacYdBfPVxkjZlYdY6/Z+7vbiptMNKfLER/pHtkvbrLow3RGhp7aqjiDhuc5ud4+Z93eqmwqAeUh0xtQ4bVVG2wcW5I/G4DtnjZef/wB+p/8ArULCe58gH3j9K2MF/Pb1KCxTTGgp76yriDhvax2sffvbHcjiq8OTgzba7Eqqp23LA7JH4WJds8LKdwzQjD4LaukjLgbhzxrHX7QX3sfBB26PaQQVsZlp3FzGvLDmaWkOAadx6rOab96o+Lx83x0HaGVcHDOwW87Rj612aEjm+J4lRbmuc2eMWsMrtrrdw1jB8q85WY8jaOtAN6ecB1vwPsTf6APmWrPTnjtXvDZitxvFkyiA9m5Fxcr0RERkIiICIi8BERegiIgIiICIiAiIgIiICIiAiKMxzHIaRgfM5wDiQ0NaSSQLm3V5lZUpa9uNY3lha0VjeUJp/eMUtY0dKmnY42/CSCfMsaOK1Zrw4BwNwRcHuO0LHsVxKqxGF8FPhk7mPA6b/wB20WcHNIv0TtH4lN4fgeOPijifWQ00TGNYMjQ+UhoDQXG2+w3hwXVaDHfHh43jbaf2U+ptW196y0SWRrBmc4NaN5cQB5lVrEuUDDYfaq2PPZFeT1ZdvmVFQ8mEDyH1lVU1b/jkIbwAJcPqVlwvRaip7amkiY4bnZQ5/wBb7u9VNR1WHKFNPbmOF1MoO57xkj8bjM37gvRTY/U2zzU1Ew7wwB8lvvF/BwWgFEFBZyZskIdW1tVVOveznFrL9wJcRwIVhwzQ+gp7aukiDhuc5useD3OkuR5qWrKyKJueWRkbe17mtHm4hVXE+UzDYbjXmVw92JhdfwcbM+5BcAOrqXqz3+3FfUbKLCJSLbJJzkb5dFv3rkxCLFnDNWYrS0EZHssLQ/gTZ3k8oNNsiyvRGqwyCtZkr6msq5LxB7g8x9Kx6xe1wNt3Aeq1RBn+kp5vjdBU3syoY+B/YXbQy57byR/Qp/T3D9fh1THa7she22/NGRIAPHLbiofldpnGhbOzY+mljkaezbk8ruaflVxo6ls0TJBYslY1w7C17Qf5FBRtE6zXUcD73OQNcfiZ0D6tvxUwqPojiEVHzujnlazUVDwzO4AlhNujff7N9n4u9d9Vp7Qs2Nke93Yxjjc9xdYHzXK6nR5fjWilZmN+3dc4s9eETaVpsiqkek9TLspsKqXg+88FjfPKR6r7tosdmGyOlpgd2d2Zw+nOPRZU8Lz26xt95eW1eOPrusa/E0zGC73taO1xAHqodmgVbJbnGLPt1thZl9QW/pXXS8llADml107usySkX+gNPqpVPBp/zt+Iaba6PpD5N0jpDI2NtTG57nBrQ12a7jsAu242nvUsqvykaNU1JSRVFLTsjdDPG5xaDmLNosXEknpZN5Vma8OAcNxFx4HcoviGirp+PGd9927TZ5yb7/R+kRFXJYiIgIiICIiAiIgIiICIiAVVeUSnLqMyMuHwvZI0jeLHKfLNfgrUuXE6QSwyRHc9jm+GZpAPmt2myfDy1t2lqy15UmFpw2tE0MczfZkYx48HtDv+VCaWaXR0LoozDLLJNm1bIwDctyixub3OYbACuDknrzLhrGOPThe+N194ynM0cGuaOC5eVqIsgp6xou+kqI336w0kX83NiXZqF5+2cbqP7jD4qVh96odd3d0dhH0FeDQzEJ7c9xeSx3spxkab9VxlB4sVsfjsQljjNxrGNdG4+w7NuAPbu8worMaysFv8PTG9xudIDs9R5D4lha8R5R5y0X1ER5V85322RXJRI6OOronuJfS1D2i+/I4mx4ua88VI6d0sjmxu/anMYQS2Q7AXuO1oa7M05rB2weKjKM820hljvZlbA17R1F7Btt32ZKfmVm0spo30z3SUnOzHZ7IetzxsFuBPUdl9hWbeyR/7DY/a6sxGdxt74BI+hxGz4lYsNnrzb9n4HDSNPvzAB9u05sjvRy6KM408FlLQUmHxkbC4Nz8Q2/qxdLtAKuo/x2LTSNI2xxdBnfv6J+hBFYnBVf6lpBHANpMVObPt2WZld6O4qCgdgjHZYqasxGY3NzmAJ7w3K48WlaPhnJxhsNiKYSO7ZXGS/i09D7VaaenZG3JGxrG/hY0NHkNiDN8MmxU2FHhNJRRneZAA7jlyu+xaYiII/HsP5xSzQf7sb2j8xacp4GxVe5KsQ1uGRAnpxF8Tu7IbtB+RzFcVn+gn8PiOJ0W4ZxPGPhftd5B8Q4IOCvwen/tDlqIWyMqoMzA8EtErRY917RO2H8Q7VolFhsMItFDFEP8ApsY39IVK5UP3L6CvFxqKgNeR/tvsXX4McPmWgIF0REBERBXeUCj1uG1bLbo3PHjHaQfpUBopU6yjp33udW0E97Og71aVfZ4g9rmHc5pafBwIP81lvJw8ilfC724JZGHzDv5lyq/Fqb4eXaUzRW2vMd4W1ERc0txERAREQEREBERAREQEREBERBAcnj9TiOIUhPReWzMHcT0rfWwfKrfpfh3OKKphtcujflHxtGeP7mtVHrJeb4xQz3s2droH9hJ2Nv8AM9n0rUV2OlyfExVt6eyhzU43mFK0NEdbhNOJP/jYWZtl2OjJYDc/CGniuhukmGUEYjdWRktJzZDrHlx33EYNuobd1gomLkopruD6iodEXue2JrgyMXO4ixvssLix2Kx4XoVQQW1dJFmG5zxrHX7QZLkcFu4xvy+qN8OvLlt59N1ExPSIV9fQzUNNUv1EtpHmOzDG8sDtoJsAM+11vaWtqOxDG6WnFpqiKLsa57QeDb3PALow+ujnjbLFIJI33yubuNiWnyII4LJsdKLmra+KJueWWOJva97Wj7iFVsS5TMNiuBM6V492JjnXPc51mngUFyRZ6dNcRqLiiwiS3uvnORp4HKPJ648RixRwJrcXpqFh92MtD+Bu11/B5QaTU1Ucbc0sjI29r3Bo83Gyj8M0jpKiR0UFTHJIxuZwYb9G9rg7iLkbjsuO1ZBKMEY+8k9biMx2WGcAnuJyu8nFXPQqqk1zWwYJzSlcHB8rzllsASy+Zoc4E2Ftu+90GgrP8ePN8doZ72ZVRvhf3uF8vq6H6VoConK7TuFHHVM2SUs8cgPcXZf1GM8EEvyh4fr8NqWW6TY9Y22+8ZD9niGkcV0aF4jzigppb3cY2hx+NnQf9zSpWnlZNG14sY5WBw7Cx7QR6FUfkmkMcdXRON3UtQ9ovvyOJA83MeeKC/oiICIiAsswRmqxTE6e+xz2ytH5+m63/kb6LU1mmkjdVjkL7dGopywn4mZj/Jsai62nPBaPTf8AHm3ae3HJErEiIuQXoiIgIiICIiAiIgIiICIiAiIgqnKLC7mjZm+3BIyRp8Dl/m5p4LTKCqbLHHK32ZWMe3we0OH81UsXpNdBLF+NjmjxINj52X05KsQ1uGxAnpxF8bu0ZDdoPyOYuj8IycsU17T7qnW02tFu74aaY/XRVlPR0ghaahjsskocem0uuBbYLAN6jcuC5/7E18+2txeUtttZAMjdveLA8WL3lZjMcdJWtF3UtQxxtvyOIJ83MYOKn67HXQzDWNHNngGN4uSCQCc3b4dljt2q1tMVjeVfkyRSN56Ian0EwmneyN8ZklkuGmVz3k9pIFmDxIXz5JpSyCoo3m76Soez5XE2PFzZFL6OwunlfWyDfdsLT7rBcE/zHiXdqhcM/htIKiK4DKyBsjR8bLX/AEzHisazNo3/AAww3teOUx5T0+z68odFQtfFU1VJPUyH93GyIvt0bvGYNcOsnvN9xsojDJ8RP+AwOCjaffmAD7dRN8jvQrQNIIqp8D20cscVQcuV8gu0C4ze67ba9rg/8innk+qZ9tbis8gO+OPoM9SW/YFm3IjFIKj/AFLSGOK210VOelbbstHld5tKhaZ+DMcRBR1mIzb7uz5Se8NAPmwrSMN5O8Nh2ilbI7tlLn/a45fRWengZG3LGxrGjcGNDR5DYgzagkxZwy0eGUlAwj2nhofxAAN/FikqHQ+vfJHLWYvK7I5rtXCCxhIINiQQCNlvY61e0QFGaSYfzikng65I3tb+bKSz7sqk0QVHkuxHXYZBc3dFmjd3as9EfQWeajaP+G0gmZezK2APaO2Rg2277MkPzJye/uK3E6E2s2USxj4H/wBGmJOUs6ifDq8bBDPkkP8A032JvwbIPmQaAiIgIiICzvlWjyPw+rvbVVIYfyvyuN+EbvMrRFTuVej1mFzWFzGWSD5XgOP0ucvLRvExP1exO07uhFyYVU62CKT8bGO4uaCV1rib142mJ+joKzvG4iIsWQiIgIiICIiAiIgIiICIiAoHk4l1NdiNGTsLmzRjud7du6z4xwU8qvPLzfGqOW4DahroX953N+50XkrXwjJxyzXvHsg62m9N+y66a4fzigqYrXcY3OaPjZ02fc0Kq4Dprh/7Mp2VczMwjDHsIc994yWNJDQSCQ0OBNt60UhQmH6IUEJzR0cQdckEtzuBPYX3I8AukVMxExtKsx8ookAZh+G1M4HRacuSMAbN7Q6w8bL40+E4rV19NW1ENPTNgceiHF0hjdfM05S4EkFwG1tsxV2xHHaWm2TVMUVvdc9odwaNp4BVWu5VKFtxC2aocAScjCGgDeXF9iB32KPYjZfEXDgmJsqqeOojBDJGhwBtcdRBt1ggjgoXSXTujopNVIZHzWackbLus72driG8L3QWhFnp0yxKouKPCXgdT6glrfGxyDycVw4lDiZBNdjNNRMPuREB/eB7Lr+Dig0qqqo4m55JGRtG9z3NaPNxAVVxPlKw2G45xrXD3Yml9/Bxsz7lnUowNj7vkrMRmcbbMwBO3rOVxHgXKwYZPWn/AC7AYqYbhJOAH27elkd+pBdNFdJue6xwpJ4Y2Zcr5W2EmbN7PVcW22J3hWFUjR+Wtjqhz/E6ZzngtZSxmMEuNrWuGuuNvbftV3QZ/jH8Nj1JNsDKuF8Tu97b29dSFMcpOHa7DKlo9pjNYOv+7IefNocOKiuVyFzaWGrYBrKSdkg/KSB+rVeSu7XMljB3xys82Pb/AEKCM0QxDnFDTTE3c6NmY/G0ZH/c1ymVQuSSYsgqKJzrvpKh7PlJNvvbIr6gIiIC4Mdo9dTTw/7kT2DxcxwB87LvQIMw5PanPQRXNyzMw/K4lv2lqsyqWhbNVNX0traqpcWj4XFwbbg0eatq5DXU4Z7R67/nzXentyxxIiIoqQIiICIiAiIgIiICIiAiIgFVLlFjcKZlQz26eVj2njb+ZZ5K2rgxuj11NNF1vY4D81jlPnZb9Lk4Zq27S05qcqTC5UlS2WNkjTdsjGvb4OAcPQrOtMqSSfFqekkqp4qWeI5WxPyjWMzlwI3G9htIPtBTvJdiGuwyC56UWaJ3dkcco+gsUbyqtMQoq5oN6Wpbmt+B5DnX7iWNHzd67JRPrh+hmD08ogLGyT5QQJnOcSDu2GzCT2AX7lOYRWU82vpYYQyFgyOcxrWsdmDmuDQ3s2qM5QIY3xxBsWeokc1kThsI6zcjeLdR7b9S/ejOH1lJIICxj6Zxc4yNs1zXZesHadoAtt6tuyy0ze3Pb6LGumxTp/ib/qmPKJnbp1mP4cXJHM5tJNSPI1lLPJGR3E3/AFazyUxpQ2vD4zQQ07nuDhJLLbMwC2UDaDba7t8O2CwUc3x+rh2BlXEyVne9tr+uuPBWnSfR+OuhEEkksbM4cTG4NLrBwyuu0gt6W628Bblcz3E6eb/UtIWR2uXRUx6Vuy0eUniwqGpH4Kx2WmoqzEJRtu7NYk9obb1YtJw3k9w2HdSMkPbKTJfg7o+QVnhiawZWNa1vY0ADyCDNqF+MOGWkw2koIyNhcGh/ED/li6joHW1H+OxaZ4I2xwjIzv7Gn6FoSIKpgnJ9QUr2PjhL5GEFr3vc5wcNzrbGA9+VWtEQROlWHc4oqiG1y+N4b+cDMz7g1RXJliOuwynPvRtMZ/7Zyt+3IeKtaz7k3GoqsSoSABHPrIx8D7gbPyiLzQe4aebaQVEVwGVkDZGjtezf+mYrQFn/ACjfuKvDa4WAjm1ch+B9v5N1nmtAKAiIgIiIMwqGanHp236NRAx4HxNDW/8ApIeKsygeUJurxLDai2x5fC4/msG3/wDI48FPLnPF6bZYt3ha6K29JjtIiIqlOEREBERAREQEREBERAREQEREEFyZv1VViNGbWbI2Vg+F2/0MSs+nWG84w+piAJdqy9oG8vj/AHjQO8loHFU4v5vjdLJsDKqN0Tu9w9n11IWoLs9Nk54q27woMtON5hl+j+n87qWCKnw2oqJWMYx7/ZjzNblvmAdvt123qQDcfqd5pqFhPVZ8lvvF/pVtxLH6Wm2T1MUZt7Lntz27me16Kr1HKjSF2SmiqKp/UI43AfdZ32rc1vtgmgjoqqOsqa6apqGZspdZrAHNc3LYlxy9J2wEC6uqzXEdK8ZML548Njp4Y2F7jM7NJlAubNJab27Wq86P4jzmlhqNgMsbHEDcHEdIDwdccEEiip2PY5ignfBR4aHtblyzSPAjdcAkgXbuJItmJ2Kv4lBiRvz7G6eiafciLQ+3Xa2Rx4OKDSqysiibnlkjjb+KRzWjzcQqtifKXhsVwJzK8e7Exzr+DjZnqs7d+w2P2urcSmJt7wBI+lxH1KwYZPXH/L8ChpAdmsmAD8ovYnNkcfuQSJ03r6i4ocIkIt0ZJzkab93RaeD1Z9F3Vxa/n+pEhcCxkV+i0jaH7T17tp69qoeJwVR/zHSCKDrMVORnt2WZkd5h3FfbQGrwuKs1dI6rnnma5rpng5A0dM5vZIvlG0tPjtQaks/xH+G0gp5NzKyB0bj8bb2/TEOK0BULlaiLIaasYLvpKhj+/I4i44ubGgkuU3D9dhlQB7UbRI3uyEOd9mccVLaL4hzijp5r3MkbC634wAH/AHBy73tZLGRvjlYR4se3+hVJ5I5nNpZqR56dLPJGfAm+7q6Ws8kF8REQEREFD5YIDzFkzfagnjk4G7P1OZ5KQikDmtcNzgCPAi4XdpxR63DqtlrnVOcB8UY1jfVoVa0PqtZQ07r36AafFhLD+lU3jNN6Vt2nb8p+ht+qappERc+tBERAREQEREBERAREQEREBERBUuUNjmQxVLPbppo3jwvb9WTyWpU8zZGNkabte0OafhcAR6FUrH6PXUs0XW9jg38wF2fcAu/kyxDXYZTk+1G0xu7shLW/ZkPFdJ4Tk5YuPaff+yqNbTa8T3VzEcJg/tC0TwtkjqoLsD25miVjbbjsvliO/wDErRNpDBSTGndCYYwBkc1oEbtgJADR1Xt477KE5UhqXUFeLjm9Q0PI/wBt9i6/d0CPmU5pZhs1UYYYwNQ515ZLtuA22UAHbtud3Xa+xWWSZiu9erDSRjnJtl6THXfbb+9jAKuSugmMzWtglLmRttt1ZBa7Nt277eIPVZRPJFO7mb6Z+ySlmkjcPF2f9ReOCmMH0edSSOcyodzYg3jdtDXdRDuocL9t1W9FqqOPG66GN7HxzsbKC14cNY3KXtNtgdd8h4BKb7fq6vNV8Ockzi+Wenp9/V3coVGwmOWfFJKSnylpiZe8jgSSRlNybECxa4bBuuqLSS4OxxFLh9ZiEo25n5spJ7Q3/li2evw2GcNE0McoabtD2NcAd1xmC6IomsGVjQ1o3BoAA8AFmjs3ozjL25KSgpMPjI2FwZnHAA7fFi6ToDVz7a3Fp5ARtji6DPU5fsWhIgqWG8nOGw7RTCR3bK5z/tPQ9FaKamjjbkjjYxo3NY0Nb5NFl9UQFDaYYdzihqYQLudG4tHxs6bPua1TKIKxyb4hrsMpndbGas/9slg+0NPFQ2Dfw2PVcO5lXE2Zve9u/wBdcVXtHKnEKWetw6hp4n5J3vzSOs1kb7Blm5m3Ba1h2X8FY8L0Sr31sNdW1cTpIswayJmzI5rxlzWbs6R3h3XtQX5ERAREQfl8YcC07nAg+B2FZVydFzKeWnd7UE72H0/9sy1dZbhbRDi+IwbhIWStHV0gHOI4yeigeJU5YLem0pOlttkj1WlERcquhERAREQEREBERAREQEREBERAUHyYP1VRiFEbAMlEjB8D7g+gi80RXPg1p52j0/6r9d8sfdZ9N8IdV0M8DW5nubeMXAu9hD2i52C5FtvaqtRUekEkUcbpaekY1rWl1g+UhrQ25tnGY26i1EXQKx0Dk0EpDq6vqqk3vbNkZfwOYjgQrJgeilHRnNT07GPsRnJc59jvGZ5JA7giIJtERAREQEREBERBn9UObaQxvtZlbAWE9WsYP6Rxj5loCIgIiICIiAs20qbqsbpZPdqIHMP5ml5//NEWnURvit9p9mzF/wClfvCwIiLjF+IiICIiD//Z\" /></p>\n",
           "scale": {
             "x": 0.26487227841590955,
             "y": 0.26487227841590955
-          }
+          },
+          "selected": false
         },
         {
           "type": "TextBox",
@@ -235,48 +239,52 @@
         },
         {
           "type": "TextBox",
-          "x": 101,
-          "y": -5,
+          "x": 82,
+          "y": 4,
           "text": "<p><img src=\"https://encrypted-tbn0.gstatic.com/laptop?q=tbn:ANd9GcTEFS1-0XpfTUoBQGWZ8Q-6rhokai3Wu0HPEQ&amp;usqp=CAU\" /></p>\n",
           "scale": {
             "x": 0.285004965243297,
             "y": 0.285004965243297
-          }
+          },
+          "selected": false
         },
         {
           "type": "TextBox",
-          "x": 213,
-          "y": 36,
+          "x": 124,
+          "y": 91,
           "text": "<p><img alt=\"Parachute icon symbol design Royalty Free Vector Image\" src=\"data:image/png;base64,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\" /></p>\n",
           "scale": {
-            "x": 0.3931920961499288,
-            "y": 0.3931920961499288
-          }
+            "x": 0.39,
+            "y": 0.39
+          },
+          "selected": false
         },
         {
           "type": "TextBox",
-          "x": 61,
-          "y": 89,
+          "x": -30,
+          "y": 125,
           "text": "<p><img alt=\"roots clipart - Clip Art Library\" src=\"https://edef.eu/~technillogue/xyz/timberland_ci_design/roots.png\" title=\"\" /></p>\n",
           "scale": {
-            "x": 0.35955411995693204,
-            "y": 0.35955411995693204
-          }
+            "x": 0.25475062650715036,
+            "y": 0.25475062650715036
+          },
+          "selected": false
         },
         {
           "type": "TextBox",
-          "x": 206,
-          "y": 56,
+          "x": 118,
+          "y": 106,
           "text": "<p><img src=\"data:image/jpeg;base64,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\" /></p>\n",
           "scale": {
             "x": 0.1190509168238422,
             "y": 0.1190509168238422
-          }
+          },
+          "selected": false
         },
         {
           "type": "TextBox",
-          "x": -100,
-          "y": 234,
+          "x": -102,
+          "y": 295,
           "text": "<p><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">VMs (shared mkenv workflow):</span></span></p>\n\n<ul>\n\t<li><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">dev-timberland</span></span></li>\n\t<li><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">dev-radix</span></span></li>\n\t<li><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">per-platform deployments</span></span></li>\n\t<li><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">(phase 2: simulation orchestrators)&nbsp;</span></span></li>\n</ul>\n",
           "scale": {
             "x": 0.37909100235970045,
@@ -286,24 +294,26 @@
         },
         {
           "type": "TextBox",
-          "x": -26,
-          "y": 22,
+          "x": -45,
+          "y": 31,
           "text": "<p><img alt=\"environment\" src=\"https://edef.eu/~technillogue/xyz/timberland_ci_design/environment.jpg\" style=\"width: 220px; height: 147px;\" /></p>\n",
           "scale": {
             "x": 0.31404825658809243,
             "y": 0.31404825658809243
           },
-          "z": 0
+          "z": 0,
+          "selected": false
         },
         {
           "type": "TextBox",
-          "x": 198,
-          "y": 197,
+          "x": 90,
+          "y": 225,
           "text": "<p><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\"><img alt=\"\" src=\"https://edef.eu/~technillogue/xyz/timberland_ci_design/dojo.jpg\" /></span></span></p>\n",
           "scale": {
             "x": 0.3395466224742676,
             "y": 0.3395466224742676
-          }
+          },
+          "selected": false
         },
         {
           "type": "TextBox",
@@ -320,12 +330,23 @@
             "y": 0.0017776321007834106,
             "z": 0
           }
+        },
+        {
+          "type": "TextBox",
+          "x": 256,
+          "y": -10,
+          "text": "<p><span style=\"font-size:16px;\">open questions:</span></p>\n\n<ul>\n\t<li><span style=\"font-size:16px;\">feedback on all of this and structural alternatives</span></li>\n\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">radically simple dependency management</font></span>\n\t<ul>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">nix? venv? radixlabs/dotfiles + emanate?</font></span></li>\n\t</ul>\n\t</li>\n\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">VM management</font></span>\n\t<ul>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">reproducible and cacheable dep installs</font></span></li>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">tf-libvirt vs nomad-qemu</font></span></li>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">gitlab, autoscaling, profiling, and observability</font></span></li>\n\t</ul>\n\t</li>\n\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">gitlab docker vs binary vs tf provider</font></span>\n\t<ul>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">helpful pprint CI output</font></span></li>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">prometheus?</font></span></li>\n\t</ul>\n\t</li>\n\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">configuration language proliferation deterrence</font></span>\n\t<ul>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">skylark + HCL? s/bash/ammonite-ops?</font></span></li>\n\t</ul>\n\t</li>\n</ul>\n",
+          "selected": true,
+          "scale": {
+            "x": 0.808101011344086,
+            "y": 0.808101011344086
+          }
         }
       ],
       "type": "Slide",
       "selected": false,
-      "x": 600,
-      "y": 275,
+      "x": 274,
+      "y": 152,
       "scale": {
         "x": 1.3,
         "y": 1.3
@@ -341,26 +362,29 @@
       "components": [
         {
           "type": "TextBox",
-          "x": 63,
-          "y": 294,
-          "text": "<p><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">stock ubuntu &rarr; check BUILD </span></span></p>\n\n<p><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;⬈&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&darr;<br />\ncached iso/.tmpl &larr; update deps</span></span></p>\n\n<p><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\"><em>straightforward deps, highly available&nbsp;images.</em></span></span></p>\n",
-          "selected": false
+          "x": 40,
+          "y": 274,
+          "text": "<p><span style=\"color:#FFFFFF;\"><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">stock ubuntu</span> <span style=\"background-color:#000000;\">&rarr;</span> <span style=\"background-color:#000000;\">check BUILD </span></span></span></span></p>\n\n<p><span style=\"color:#FFFFFF;\"><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span style=\"background-color:#000000;\">&nbsp;⬈</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<span style=\"background-color:#000000;\">&darr;</span><br />\n<span style=\"background-color:#000000;\">cached iso/.tmpl</span> <span style=\"background-color:#000000;\">&larr;</span> <span style=\"background-color:#000000;\">update deps</span></span></span></span></p>\n\n<p><span style=\"color:#FFFFFF;\"><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\"><em><span style=\"background-color:#000000;\">straightforward deps, highly available&nbsp;images.</span></em></span></span></span></p>\n",
+          "selected": true
         },
         {
           "type": "TextBox",
-          "x": 10,
-          "y": 10,
-          "text": "<p><span style=\"font-size:28px;\"><u><span style=\"font-family: arial, helvetica, sans-serif; background-color: initial;\">mkenv</span></u></span></p>\n\n<p><span style=\"font-size:20px;\"><span style=\"font-family: arial, helvetica, sans-serif; background-color: initial;\">terraform:</span></span></p>\n\n<ul>\n\t<li><span style=\"font-size:20px;\"><font face=\"arial, helvetica, sans-serif\">-libvert templates with iso blobs over qemu</font></span></li>\n\t<li><span style=\"font-size:20px;\"><font face=\"arial, helvetica, sans-serif\">-gitlab/-libvirt integration</font></span></li>\n</ul>\n\n<p><span style=\"font-size:20px;\"><span style=\"font-family:arial,helvetica,sans-serif\">ammonite-ops:</span></span></p>\n\n<ul>\n\t<li><span style=\"font-size:20px;\"><span style=\"font-family:arial,helvetica,sans-serif\">bazel diff</span></span></li>\n\t<li><span style=\"font-size:20px;\"><span style=\"font-family:arial,helvetica,sans-serif\">apt and update_bazel_deps respectively</span></span></li>\n\t<li><span style=\"font-size:20px;\"><span style=\"font-family:arial,helvetica,sans-serif\">mkisofs&nbsp;</span></span></li>\n</ul>\n",
+          "x": 0,
+          "y": 0,
+          "text": "<p><span style=\"color:#FFFFFF;\"><span style=\"font-size:28px;\"><u><span style=\"font-family: arial, helvetica, sans-serif;\"><span style=\"background-color:#000000;\">mkenv</span></span></u></span></span></p>\n\n<p><span style=\"color:#FFFFFF;\"><span style=\"font-size:20px;\"><span style=\"font-family: arial, helvetica, sans-serif;\"><span style=\"background-color:#000000;\">terraform:</span></span></span></span></p>\n\n<ul>\n\t<li><span style=\"color:#FFFFFF;\"><span style=\"font-size:20px;\"><font face=\"arial, helvetica, sans-serif\"><span style=\"background-color:#000000;\">-libvert templates with iso blobs over qemu</span></font></span></span></li>\n\t<li><span style=\"color:#FFFFFF;\"><span style=\"font-size:20px;\"><font face=\"arial, helvetica, sans-serif\"><span style=\"background-color:#000000;\">-gitlab/-libvirt integration</span></font></span></span></li>\n</ul>\n\n<p><span style=\"color:#FFFFFF;\"><span style=\"font-size:20px;\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">ammonite-ops:</span></span></span></span></p>\n\n<ul>\n\t<li><span style=\"color:#FFFFFF;\"><span style=\"font-size:20px;\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">bazel diff</span></span></span></span></li>\n\t<li><span style=\"color:#FFFFFF;\"><span style=\"font-size:20px;\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">apt and update_bazel_deps respectively</span></span></span></span></li>\n\t<li><span style=\"color:#FFFFFF;\"><span style=\"font-size:20px;\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">mkisofs&nbsp;</span></span></span></span></li>\n</ul>\n",
           "selected": false
         }
       ],
       "type": "Slide",
       "selected": false,
-      "x": 301,
-      "y": 89,
+      "x": -53,
+      "y": 3,
       "scale": {
-        "x": 0.07506690179086845,
-        "y": 0.07506690179086845
+        "x": 0.10412401573626441,
+        "y": 0.10412401573626441
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)"
       }
     },
     {
@@ -369,88 +393,48 @@
           "type": "TextBox",
           "x": 134,
           "y": 75,
-          "text": "<p><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">checks:</span></span></p>\n\n<ul>\n\t<li><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">semvar?</span></span></li>\n\t<li><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">formatting?</span></span></li>\n\t<li><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">unit tests?</span></span></li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\"><em>only check what&#39;s in the diff</em></span></span></p>\n",
-          "selected": false
-        }
-      ],
-      "type": "Slide",
-      "z": 0,
-      "selected": false,
-      "scale": {
-        "x": 0.05,
-        "y": 0.05
-      },
-      "x": 380,
-      "y": 90
-    },
-    {
-      "components": [
-        {
-          "type": "TextBox",
-          "x": 4,
-          "y": 235,
-          "text": "<p><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">bazel build jars | gitlab registry {release} {ver}</span></span></p>\n"
-        },
-        {
-          "type": "TextBox",
-          "x": 7,
-          "y": 303,
-          "text": "<p><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">bazel build templates | terraform registry {release} {ver}</span></span></p>\n"
-        },
-        {
-          "type": "TextBox",
-          "x": 26,
-          "y": 128,
-          "text": "<p><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">bazel build //timberland/{os} | {os}/publish.sh</span></span></p>\n"
-        },
-        {
-          "type": "TextBox",
-          "x": 24,
-          "y": 28,
-          "text": "<p><u><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">publish</span></span></u></p>\n\n<p><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">get timb deps | makeiso | img registry</span></span></p>\n"
-        },
-        {
-          "type": "TextBox",
-          "x": 8,
-          "y": 364,
-          "text": "<p><font face=\"arial, helvetica, sans-serif\"><span style=\"font-size: 26px;\">ssh r@demo.radix.bio &quot;git pull; timberland reload&quot;</span></font></p>\n"
-        },
-        {
-          "type": "TextBox",
-          "x": 21,
-          "y": 419,
-          "text": "<p><em><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">standardized&nbsp;flow for all components&nbsp;</span></span></em></p>\n",
+          "text": "<p><span style=\"color:#FFFFFF;\"><u><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">checks</span></span></span></u></span></p>\n\n<ul>\n\t<li><span style=\"color:#FFFFFF;\"><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">semvar?</span></span></span></span></li>\n\t<li><span style=\"color:#FFFFFF;\"><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">formatting?</span></span></span></span></li>\n\t<li><span style=\"color:#FFFFFF;\"><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">unit tests?</span></span></span></span></li>\n</ul>\n\n<p>&nbsp;</p>\n\n<p><span style=\"color:#FFFFFF;\"><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\"><em><span style=\"background-color:#000000;\">only check what&#39;s in the diff</span></em></span></span></span></p>\n",
           "selected": true
         }
       ],
       "type": "Slide",
       "z": 0,
       "selected": false,
-      "x": 466,
-      "y": 87,
       "scale": {
-        "x": 0.08875080886663364,
-        "y": 0.08875080886663364
+        "x": 0.10617708696109887,
+        "y": 0.10617708696109887
+      },
+      "x": 39,
+      "y": 7,
+      "style": {
+        "background": "rgba(0, 0, 0, 0)"
       }
     },
     {
       "components": [
         {
           "type": "TextBox",
-          "x": 30,
-          "y": 30,
-          "text": "<p><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">{os}<br />\n&nbsp; &nbsp; &nbsp;&nbsp;/libvirt_config.tmpl<br />\n&nbsp; &nbsp; &nbsp; /install_timberland.sh (e.g. apt install timberland)</span></span><br />\n<span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">&nbsp; &nbsp; &nbsp; /start_config.yaml (or .tmpl)<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></span><span style=\"font-size:20px;\">(start/join, default services)</span></p>\n\n<p><span style=\"font-family:courier new,courier,monospace;\"><span style=\"font-size: 26px\">terraform apply</span></span></p>\n\n<p><span style=\"font-family:courier new,courier,monospace;\"><span style=\"font-size: 26px\">./install_timberland</span></span></p>\n\n<p><span style=\"font-family:courier new,courier,monospace;\"><span style=\"font-size: 26px;\">timberland deploy {release} {version}</span></span></p>\n\n<p><span style=\"font-family:courier new,courier,monospace;\"><span style=\"font-size: 26px;\">timberland start ./start_config</span></span></p>\n\n<p>&nbsp;</p>\n",
-          "selected": false
+          "x": 25,
+          "y": 31,
+          "text": "<p><span style=\"font-size:26px;\"><span style=\"color:#FFFFFF;\"><u><span style=\"background-color:#000000;\">publish</span></u></span></span></p>\n\n<p><span style=\"font-size:26px;\"><span style=\"color:#FFFFFF;\"><span style=\"background-color:#000000;\">mkenv: get timb deps | makeiso | img registry</span></span></span></p>\n\n<p><span style=\"font-size:26px;\"><span style=\"color:#FFFFFF;\"><span style=\"background-color:#000000;\">timberland: bazel build //timberland/{os} | {os}/publish.sh</span></span></span></p>\n\n<p><span style=\"font-size:26px;\"><span style=\"color:#FFFFFF;\"><span style=\"background-color:#000000;\">radix: bazel build jars | gitlab registry {release} {ver}</span></span></span></p>\n\n<p><span style=\"font-size:26px;\"><span style=\"color:#FFFFFF;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style=\"background-color:#000000;\"> bazel build templates | terraform registry {release} {ver}</span></span></span></p>\n\n<p><br />\n<span style=\"font-size:26px;\"><span style=\"color:#FFFFFF;\"><em><span style=\"background-color:#000000;\">standardized&nbsp;flow for all components</span></em></span></span></p>\n",
+          "selected": true,
+          "scale": {
+            "x": 0.8417030567685589,
+            "y": 0.8417030567685589
+          }
         }
       ],
       "type": "Slide",
       "z": 0,
       "selected": false,
-      "x": 594,
-      "y": 229,
+      "x": 136,
+      "y": 1,
       "scale": {
-        "x": 0.14319999999999988,
-        "y": 0.14319999999999988
+        "x": 0.11587078188233654,
+        "y": 0.11587078188233654
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)"
       }
     },
     {
@@ -458,8 +442,35 @@
         {
           "type": "TextBox",
           "x": -12,
-          "y": -23,
-          "text": "<p><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">the future is procedurally generated:</span></span></p>\n\n<p><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">phase 3:</span></span></p>\n\n<ul>\n\t<li><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">random valid easel-dsl protocols</span></span></li>\n\t<li><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">demo.radix.bio</span></span></li>\n\t<li><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">random valid OS combination groups</span></span></li>\n</ul>\n\n<p><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">phase 4</span></span></p>\n\n<ul>\n\t<li><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">VM is connected to live devices (libvert connects to wireguard, device joins over wg)</span></span></li>\n\t<li><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">betamax captures and replays network traffic from live device demos for scalacheck (betamax.pem)</span></span></li>\n\t<li><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">&quot;intersect one Gaussian with another Gaussian in n-dimensions&quot;</span></span></li>\n</ul>\n",
+          "y": 6,
+          "text": "<p><span style=\"font-size:26px;\"><span style=\"color:#FFFFFF;\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">{os}</span></span></span></span></p>\n\n<ul>\n\t<li><span style=\"font-size:26px;\"><span style=\"color:#FFFFFF;\"><span style=\"background-color:#000000;\">/libvirt_config.tmpl</span></span></span></li>\n\t<li><span style=\"font-size:26px;\"><span style=\"color:#FFFFFF;\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">/install_timberland.sh (e.g. apt install timberland)</span></span></span></span></li>\n\t<li><span style=\"font-size:26px;\"><span style=\"color:#FFFFFF;\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">/start_config.yaml (or .tmpl)</span></span></span></span>\n\t<ul>\n\t\t<li><span style=\"font-size:26px;\"><span style=\"color:#FFFFFF;\"><span style=\"background-color:#000000;\">(start/join, default services)</span></span></span></li>\n\t</ul>\n\t</li>\n</ul>\n\n<div style=\"background-color: black\">\n<p><span style=\"font-size:26px;\"><span style=\"color:#FFFFFF;\"><span style=\"font-family:courier new,courier,monospace;\"><span style=\"background-color:#000000;\">terraform apply</span></span></span></span><br />\n<span style=\"font-size:26px;\"><span style=\"color:#FFFFFF;\"><span style=\"font-family:courier new,courier,monospace;\"><span style=\"background-color:#000000;\">./install_timberland</span></span></span></span></p>\n\n<p><span style=\"font-size:26px;\"><span style=\"color:#FFFFFF;\"><span style=\"font-family:courier new,courier,monospace;\"><span style=\"background-color:#000000;\">timberland deploy {release}{version}</span></span></span></span></p>\n\n<p><span style=\"font-size:26px;\"><span style=\"color:#FFFFFF;\"><span style=\"font-family:courier new,courier,monospace;\"><span style=\"background-color:#000000;\">timberland start ./start_config</span></span></span></span></p>\n</div>\n\n<p>&nbsp;</p>\n",
+          "selected": true,
+          "scale": {
+            "x": 0.7166152624667909,
+            "y": 0.7166152624667909
+          }
+        }
+      ],
+      "type": "Slide",
+      "z": 0,
+      "selected": false,
+      "x": 159,
+      "y": 161,
+      "scale": {
+        "x": 0.15772855697269786,
+        "y": 0.15772855697269786
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)"
+      }
+    },
+    {
+      "components": [
+        {
+          "type": "TextBox",
+          "x": -16,
+          "y": -15,
+          "text": "<p><span style=\"color:#FFFFFF;\"><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">the future is procedurally generated:</span></span></span></span></p>\n\n<p><span style=\"color:#FFFFFF;\"><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">phase 3:</span></span></span></span></p>\n\n<ul>\n\t<li><span style=\"color:#FFFFFF;\"><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">random valid easel-dsl protocols</span></span></span></span></li>\n\t<li><span style=\"color:#FFFFFF;\"><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">demo.radix.bio</span></span></span></span></li>\n\t<li><span style=\"color:#FFFFFF;\"><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">random valid OS combination groups</span></span></span></span></li>\n</ul>\n\n<p><span style=\"color:#FFFFFF;\"><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">phase 4</span></span></span></span></p>\n\n<ul>\n\t<li><span style=\"color:#FFFFFF;\"><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">VM is connected to live devices (libvert connects to wireguard, device joins over wg)</span></span></span></span></li>\n\t<li><span style=\"color:#FFFFFF;\"><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">betamax captures and replays network traffic from live device demos for scalacheck (betamax.pem)</span></span></span></span></li>\n\t<li><span style=\"color:#FFFFFF;\"><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">&quot;intersect one Gaussian with another Gaussian in n-dimensions&quot;</span></span></span></span></li>\n</ul>\n",
           "selected": true,
           "scale": {
             "x": 0.9021406727828747,
@@ -469,22 +480,25 @@
       ],
       "type": "Slide",
       "z": 0,
-      "selected": false,
-      "x": 808,
-      "y": 388,
+      "selected": true,
+      "x": 339,
+      "y": 320,
       "scale": {
         "x": 0.19323594277265924,
         "y": 0.19323594277265924
+      },
+      "style": {
+        "background": "rgba(0, 0, 0, 0)"
       }
     },
     {
       "components": [
         {
           "type": "TextBox",
-          "x": 142,
-          "y": 81,
-          "text": "<p><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">asides:</span></span></p>\n\n<p><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">dev workflow:</span></span></p>\n\n<ul>\n\t<li>bazel //release-diff | publish</li>\n\t<li>timberland reinstall --platform={os}&nbsp;/ init</li>\n\t<li>timberland deploy {release}</li>\n\t<li>timberland wipe (fka stop, nuke, betternuke)</li>\n\t<li>timberland reload (diff-based)</li>\n\t<li>4-5 is the magic number</li>\n</ul>\n\n<p>(query, useradd, auth are still valid for IT)</p>\n",
-          "selected": true,
+          "x": 0,
+          "y": 0,
+          "text": "<p><span style=\"color:#FFFFFF;\"><span style=\"font-size:16px;\"><span style=\"background-color:#000000;\">asides:</span></span></span></p>\n\n<ul style=\"line-height: 1\">\n\t<li><span style=\"color:#FFFFFF;\"><span style=\"font-size:16px;\"><span style=\"background-color:#000000;\">bazel //release-diff | publish</span></span></span></li>\n\t<li><span style=\"color:#FFFFFF;\"><span style=\"font-size:16px;\"><span style=\"background-color:#000000;\">timberland reinstall --platform={os}&nbsp;/ init</span></span></span></li>\n\t<li><span style=\"color:#FFFFFF;\"><span style=\"font-size:16px;\"><span style=\"background-color:#000000;\">timberland deploy {release}</span></span></span></li>\n\t<li><span style=\"color:#FFFFFF;\"><span style=\"font-size:16px;\"><span style=\"background-color:#000000;\">timberland wipe (fka stop, nuke, betternuke)</span></span></span></li>\n\t<li><span style=\"color:#FFFFFF;\"><span style=\"font-size:16px;\"><span style=\"background-color:#000000;\">timberland reload (diff-based)</span></span></span></li>\n</ul>\n\n<p><span style=\"color:#FFFFFF;\"><span style=\"background-color:#000000;\">4-5 is the magic number (query, useradd, auth are still valid for IT)</span></span></p>\n",
+          "selected": false,
           "scale": {
             "x": 1,
             "y": 1
@@ -498,61 +512,24 @@
         "x": 0.44636662668220894,
         "y": 0.44636662668220894
       },
-      "x": 1405,
-      "y": 180,
-      "style": {
-        "background": "rgba(0, 0, 0, 0)"
-      }
-    },
-    {
-      "components": [
-        {
-          "type": "TextBox",
-          "x": 0,
-          "y": 0,
-          "text": "<p><span style=\"font-size:16px;\">open questions:</span></p>\n\n<ul style=\"line-height: 1\">\n\t<li><span style=\"font-size:16px;\">feedback on all of this and structural alternatives</span></li>\n\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">radically simple timberland &amp; radix dependency management</font></span>\n\t<ul>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">nix? venv? radixlabs/dotfiles + emanate?</font></span></li>\n\t</ul>\n\t</li>\n\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">VM management</font></span>\n\t<ul>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">reproducible and cacheable dep installs</font></span></li>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">tf-libvirt vs nomad-qemu</font></span></li>\n\t</ul>\n\t</li>\n\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">gitlab, autoscaling, profiling, and observability</font></span>\n\t<ul>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">gitlab docker vs binary vs tf provider</font></span></li>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">helpful pprint CI output</font></span></li>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">prometheus?</font></span></li>\n\t</ul>\n\t</li>\n\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">configuration language proliferation deterrence</font></span>\n\t<ul>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">skylark + HCL? s/bash/ammonite-ops?</font></span></li>\n\t</ul>\n\t</li>\n</ul>\n",
-          "selected": false,
-          "scale": {
-            "x": 1,
-            "y": 1
-          }
-        }
-      ],
-      "type": "Slide",
-      "z": 0,
-      "selected": true,
-      "x": 870,
-      "y": 140,
-      "rotate": {
-        "z": 0.017453292519943295,
-        "x": 0.08726646259971647,
-        "y": 0
-      },
-      "skew": {
-        "x": 0.0017510633442583412,
-        "y": 0,
-        "z": 0
-      },
-      "scale": {
-        "x": 0.7,
-        "y": 0.7
-      },
+      "x": 1079,
+      "y": 57,
       "style": {
         "background": "rgba(0, 0, 0, 0)"
       }
     }
   ],
-  "activeSlide": 1,
+  "activeSlide": 3,
   "slideWidth": 640,
   "slideHeight": 480,
   "style": {
     "background": "radial-gradient(rgba(240, 240, 240, 0.85), rgb(190, 190, 190))"
   },
   "boundingBox": {
-    "top": 0,
-    "right": 1448,
-    "bottom": 800,
-    "left": -1000
+    "top": 182.42033077687512,
+    "right": 653.5803725687351,
+    "bottom": 617.5796692231247,
+    "left": -205.58037256873297
   },
   "defaultSlideStyle": {
     "background": "linear-gradient(135deg, rgba(233,246,253,1) 0%,rgba(211,238,251,1) 100%)"
