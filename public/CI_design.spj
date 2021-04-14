@@ -469,8 +469,6 @@
       ],
       "type": "Slide",
       "z": 0,
-      "width": 640,
-      "height": 480,
       "selected": false,
       "x": 808,
       "y": 388,
@@ -512,7 +510,7 @@
           "type": "TextBox",
           "x": 0,
           "y": 0,
-          "text": "<p><span style=\"font-size:16px;\">open questions:</span></p>\n\n<ul>\n\t<li><span style=\"font-size:16px;\">feedback on all of this and structural alternatives</span></li>\n\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">radically simple timberland &amp; radix dependency management</font></span>\n\t<ul>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">nix? venv? radixlabs/dotfiles + emanate?</font></span></li>\n\t</ul>\n\t</li>\n\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">VM management</font></span>\n\t<ul>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">reproducible and cacheable dep installs</font></span></li>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">tf-libvirt vs nomad-qemu</font></span></li>\n\t</ul>\n\t</li>\n\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">gitlab, autoscaling, profiling, and observability</font></span>\n\t<ul>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">gitlab docker vs binary vs tf provider</font></span></li>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">helpful pprint CI output</font></span></li>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">prometheus?</font></span></li>\n\t</ul>\n\t</li>\n\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">configuration language proliferation deterrence</font></span>\n\t<ul>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">skylark + HCL? s/bash/ammonite-ops?</font></span></li>\n\t</ul>\n\t</li>\n</ul>\n",
+          "text": "<p><span style=\"font-size:16px;\">open questions:</span></p>\n\n<ul style=\"line-height: 1\">\n\t<li><span style=\"font-size:16px;\">feedback on all of this and structural alternatives</span></li>\n\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">radically simple timberland &amp; radix dependency management</font></span>\n\t<ul>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">nix? venv? radixlabs/dotfiles + emanate?</font></span></li>\n\t</ul>\n\t</li>\n\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">VM management</font></span>\n\t<ul>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">reproducible and cacheable dep installs</font></span></li>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">tf-libvirt vs nomad-qemu</font></span></li>\n\t</ul>\n\t</li>\n\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">gitlab, autoscaling, profiling, and observability</font></span>\n\t<ul>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">gitlab docker vs binary vs tf provider</font></span></li>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">helpful pprint CI output</font></span></li>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">prometheus?</font></span></li>\n\t</ul>\n\t</li>\n\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">configuration language proliferation deterrence</font></span>\n\t<ul>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">skylark + HCL? s/bash/ammonite-ops?</font></span></li>\n\t</ul>\n\t</li>\n</ul>\n",
           "selected": false,
           "scale": {
             "x": 1,
@@ -544,18 +542,17 @@
       }
     }
   ],
-  "activeSlide": 5,
+  "activeSlide": 1,
   "slideWidth": 640,
   "slideHeight": 480,
-  "perspective": 1024,
   "style": {
     "background": "radial-gradient(rgba(240, 240, 240, 0.85), rgb(190, 190, 190))"
   },
   "boundingBox": {
-    "top": 504,
-    "right": 664,
-    "bottom": 504,
-    "left": 664
+    "top": 0,
+    "right": 1448,
+    "bottom": 800,
+    "left": -1000
   },
   "defaultSlideStyle": {
     "background": "linear-gradient(135deg, rgba(233,246,253,1) 0%,rgba(211,238,251,1) 100%)"
