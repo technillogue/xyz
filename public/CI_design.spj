@@ -163,20 +163,20 @@
       "components": [
         {
           "type": "TextBox",
-          "x": 88,
-          "y": 42,
-          "text": "<p style=\"text-align: center;\">timberland<br />\n⇢⇢⇢</p>\n",
+          "x": 94,
+          "y": -21,
+          "text": "<p style=\"text-align: center;\"><span style=\"font-size:16px;\">timberland<br />\n⇢⇢⇢<br />\nruntime</span></p>\n",
           "scale": {
-            "x": 1.6500461680517082,
-            "y": 1.6500461680517082
+            "x": 1,
+            "y": 1
           },
           "selected": false
         },
         {
           "type": "TextBox",
-          "x": 72,
-          "y": 154,
-          "text": "<p style=\"text-align: center;\">⇢⇢⇢<br />\n<span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">runtime<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;↳</span></span></p>\n",
+          "x": 83,
+          "y": 184,
+          "text": "<p style=\"text-align: center;\"><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">&nbsp; &nbsp; &nbsp;↳</span></span></p>\n",
           "selected": false
         },
         {
@@ -200,7 +200,7 @@
         {
           "type": "TextBox",
           "x": 319,
-          "y": 412,
+          "y": 389,
           "text": "<p><font face=\"arial, helvetica, sans-serif\"><span style=\"font-size: 26px;\">[simulate]</span></font></p>\n",
           "selected": false
         },
@@ -283,9 +283,9 @@
         },
         {
           "type": "TextBox",
-          "x": -102,
-          "y": 295,
-          "text": "<p><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">VMs (shared mkenv workflow):</span></span></p>\n\n<ul>\n\t<li><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">dev-timberland</span></span></li>\n\t<li><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">dev-radix</span></span></li>\n\t<li><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">per-platform deployments</span></span></li>\n\t<li><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">(phase 2: simulation orchestrators)&nbsp;</span></span></li>\n</ul>\n",
+          "x": 140,
+          "y": -134,
+          "text": "<p><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">open questions:</span></span></p>\n\n<ul>\n\t<li><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">feedback on all of this and structural alternatives</span></span>\n\n\t<ul>\n\t\t<li><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">radically simple dependency managemen</span></span></li>\n\t\t<li><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">nix? venv? radixlabs/dotfiles + emanate?</span></span></li>\n\t</ul>\n\t</li>\n\t<li><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">VM management</span></span>\n\t<ul>\n\t\t<li><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">reproducible and cacheable dep installs</span></span></li>\n\t\t<li><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">tf-libvirt vs nomad-qemu</span></span></li>\n\t</ul>\n\t</li>\n\t<li><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">gitlab, autoscaling, profiling, and observability</span></span>\n\t<ul>\n\t\t<li><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">gitlab docker vs binary vs tf provider</span></span></li>\n\t\t<li><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">helpful pprint CI output</span></span></li>\n\t\t<li><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">prometheus?</span></span></li>\n\t</ul>\n\t</li>\n\t<li><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">configuration language proliferation deterrence</span></span>\n\t<ul>\n\t\t<li><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">skylark + HCL? s/bash/ammonite-ops?</span></span></li>\n\t</ul>\n\t</li>\n</ul>\n",
           "scale": {
             "x": 0.37909100235970045,
             "y": 0.37909100235970045
@@ -333,19 +333,19 @@
         },
         {
           "type": "TextBox",
-          "x": 256,
-          "y": -10,
-          "text": "<p><span style=\"font-size:16px;\">open questions:</span></p>\n\n<ul>\n\t<li><span style=\"font-size:16px;\">feedback on all of this and structural alternatives</span></li>\n\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">radically simple dependency management</font></span>\n\t<ul>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">nix? venv? radixlabs/dotfiles + emanate?</font></span></li>\n\t</ul>\n\t</li>\n\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">VM management</font></span>\n\t<ul>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">reproducible and cacheable dep installs</font></span></li>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">tf-libvirt vs nomad-qemu</font></span></li>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">gitlab, autoscaling, profiling, and observability</font></span></li>\n\t</ul>\n\t</li>\n\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">gitlab docker vs binary vs tf provider</font></span>\n\t<ul>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">helpful pprint CI output</font></span></li>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">prometheus?</font></span></li>\n\t</ul>\n\t</li>\n\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">configuration language proliferation deterrence</font></span>\n\t<ul>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">skylark + HCL? s/bash/ammonite-ops?</font></span></li>\n\t</ul>\n\t</li>\n</ul>\n",
-          "selected": true,
+          "x": -138,
+          "y": 209,
+          "text": "<p><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">VMs (shared mkenv workflow):</span></span></p>\n\n<ul>\n\t<li><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">dev-timberland</span></span></li>\n\t<li><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">dev-radix</span></span></li>\n\t<li><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">per-platform deployments</span></span></li>\n\t<li><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">(phase 2: simulation orchestrators)&nbsp;</span></span></li>\n</ul>\n",
           "scale": {
-            "x": 0.808101011344086,
-            "y": 0.808101011344086
-          }
+            "x": 0.37909100235970045,
+            "y": 0.37909100235970045
+          },
+          "selected": false
         }
       ],
       "type": "Slide",
       "selected": false,
-      "x": 274,
+      "x": 275,
       "y": 152,
       "scale": {
         "x": 1.3,
@@ -362,30 +362,29 @@
       "components": [
         {
           "type": "TextBox",
-          "x": 40,
-          "y": 274,
-          "text": "<p><span style=\"color:#FFFFFF;\"><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">stock ubuntu</span> <span style=\"background-color:#000000;\">&rarr;</span> <span style=\"background-color:#000000;\">check BUILD </span></span></span></span></p>\n\n<p><span style=\"color:#FFFFFF;\"><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span style=\"background-color:#000000;\">&nbsp;⬈</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<span style=\"background-color:#000000;\">&darr;</span><br />\n<span style=\"background-color:#000000;\">cached iso/.tmpl</span> <span style=\"background-color:#000000;\">&larr;</span> <span style=\"background-color:#000000;\">update deps</span></span></span></span></p>\n\n<p><span style=\"color:#FFFFFF;\"><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\"><em><span style=\"background-color:#000000;\">straightforward deps, highly available&nbsp;images.</span></em></span></span></span></p>\n",
-          "selected": true
-        },
-        {
-          "type": "TextBox",
-          "x": 0,
-          "y": 0,
-          "text": "<p><span style=\"color:#FFFFFF;\"><span style=\"font-size:28px;\"><u><span style=\"font-family: arial, helvetica, sans-serif;\"><span style=\"background-color:#000000;\">mkenv</span></span></u></span></span></p>\n\n<p><span style=\"color:#FFFFFF;\"><span style=\"font-size:20px;\"><span style=\"font-family: arial, helvetica, sans-serif;\"><span style=\"background-color:#000000;\">terraform:</span></span></span></span></p>\n\n<ul>\n\t<li><span style=\"color:#FFFFFF;\"><span style=\"font-size:20px;\"><font face=\"arial, helvetica, sans-serif\"><span style=\"background-color:#000000;\">-libvert templates with iso blobs over qemu</span></font></span></span></li>\n\t<li><span style=\"color:#FFFFFF;\"><span style=\"font-size:20px;\"><font face=\"arial, helvetica, sans-serif\"><span style=\"background-color:#000000;\">-gitlab/-libvirt integration</span></font></span></span></li>\n</ul>\n\n<p><span style=\"color:#FFFFFF;\"><span style=\"font-size:20px;\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">ammonite-ops:</span></span></span></span></p>\n\n<ul>\n\t<li><span style=\"color:#FFFFFF;\"><span style=\"font-size:20px;\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">bazel diff</span></span></span></span></li>\n\t<li><span style=\"color:#FFFFFF;\"><span style=\"font-size:20px;\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">apt and update_bazel_deps respectively</span></span></span></span></li>\n\t<li><span style=\"color:#FFFFFF;\"><span style=\"font-size:20px;\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">mkisofs&nbsp;</span></span></span></span></li>\n</ul>\n",
-          "selected": false
+          "x": 9,
+          "y": -75,
+          "text": "<div style=\"line-height:1\">\n<p><span style=\"font-size:20px;\"><span style=\"color:#FFFFFF;\"><u><span style=\"font-family: arial, helvetica, sans-serif;\"><span style=\"background-color:#000000;\">mkenv</span></span></u></span></span><br />\n<span style=\"font-size:20px;\"><span style=\"color:#FFFFFF;\"><span style=\"font-family: arial, helvetica, sans-serif;\"><span style=\"background-color:#000000;\">terraform:</span></span></span></span></p>\n\n<ul>\n\t<li><span style=\"font-size:20px;\"><span style=\"color:#FFFFFF;\"><font face=\"arial, helvetica, sans-serif\"><span style=\"background-color:#000000;\">-libvert templates with iso blobs over qemu</span></font></span></span></li>\n\t<li><span style=\"font-size:20px;\"><span style=\"color:#FFFFFF;\"><font face=\"arial, helvetica, sans-serif\"><span style=\"background-color:#000000;\">-gitlab/-libvirt integration</span></font></span></span></li>\n</ul>\n\n<p><span style=\"font-size:20px;\"><span style=\"color:#FFFFFF;\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">ammonite-ops:</span></span></span></span></p>\n\n<ul>\n\t<li><span style=\"font-size:20px;\"><span style=\"color:#FFFFFF;\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">bazel diff</span></span></span></span></li>\n\t<li><span style=\"font-size:20px;\"><span style=\"color:#FFFFFF;\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">apt and update_bazel_deps respectively</span></span></span></span></li>\n\t<li><span style=\"font-size:20px;\"><span style=\"color:#FFFFFF;\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">mkisofs&nbsp;</span></span></span></span></li>\n</ul>\n\n<p><span style=\"font-size:20px;\"><span style=\"color:#FFFFFF;\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">stock ubuntu</span> <span style=\"background-color:#000000;\">&rarr;</span> <span style=\"background-color:#000000;\">check BUILD </span></span></span></span></p>\n\n<p><span style=\"font-size:20px;\"><span style=\"color:#FFFFFF;\"><span style=\"font-family:arial,helvetica,sans-serif\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <span style=\"background-color:#000000;\">&nbsp;⬈</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<span style=\"background-color:#000000;\">&darr;</span><br />\n<span style=\"background-color:#000000;\">cached iso/.tmpl</span> <span style=\"background-color:#000000;\">&larr;</span> <span style=\"background-color:#000000;\">update deps</span></span></span></span></p>\n\n<p><span style=\"font-size:20px;\"><span style=\"color:#FFFFFF;\"><span style=\"font-family:arial,helvetica,sans-serif\"><em><span style=\"background-color:#000000;\">straightforward deps, highly available&nbsp;images.</span></em></span></span></span></p>\n</div>\n",
+          "selected": true,
+          "scale": {
+            "x": 0.7867943840404782,
+            "y": 0.7867943840404782
+          }
         }
       ],
       "type": "Slide",
       "selected": false,
-      "x": -53,
-      "y": 3,
+      "x": 29,
+      "y": 21,
       "scale": {
         "x": 0.10412401573626441,
         "y": 0.10412401573626441
       },
       "style": {
         "background": "rgba(0, 0, 0, 0)"
-      }
+      },
+      "width": 452,
+      "height": 480
     },
     {
       "components": [
@@ -404,8 +403,8 @@
         "x": 0.10617708696109887,
         "y": 0.10617708696109887
       },
-      "x": 39,
-      "y": 7,
+      "x": 38,
+      "y": 21,
       "style": {
         "background": "rgba(0, 0, 0, 0)"
       }
@@ -414,10 +413,10 @@
       "components": [
         {
           "type": "TextBox",
-          "x": 25,
-          "y": 31,
-          "text": "<p><span style=\"font-size:26px;\"><span style=\"color:#FFFFFF;\"><u><span style=\"background-color:#000000;\">publish</span></u></span></span></p>\n\n<p><span style=\"font-size:26px;\"><span style=\"color:#FFFFFF;\"><span style=\"background-color:#000000;\">mkenv: get timb deps | makeiso | img registry</span></span></span></p>\n\n<p><span style=\"font-size:26px;\"><span style=\"color:#FFFFFF;\"><span style=\"background-color:#000000;\">timberland: bazel build //timberland/{os} | {os}/publish.sh</span></span></span></p>\n\n<p><span style=\"font-size:26px;\"><span style=\"color:#FFFFFF;\"><span style=\"background-color:#000000;\">radix: bazel build jars | gitlab registry {release} {ver}</span></span></span></p>\n\n<p><span style=\"font-size:26px;\"><span style=\"color:#FFFFFF;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style=\"background-color:#000000;\"> bazel build templates | terraform registry {release} {ver}</span></span></span></p>\n\n<p><br />\n<span style=\"font-size:26px;\"><span style=\"color:#FFFFFF;\"><em><span style=\"background-color:#000000;\">standardized&nbsp;flow for all components</span></em></span></span></p>\n",
-          "selected": true,
+          "x": 19,
+          "y": -60,
+          "text": "<p><span style=\"font-size:22px;\"><span style=\"color:#FFFFFF;\"><u><span style=\"background-color:#000000;\">publish</span></u></span></span></p>\n\n<p><span style=\"font-size:22px;\"><span style=\"color:#FFFFFF;\"><span style=\"background-color:#000000;\">mkenv: get timb deps | makeiso | img registry</span></span></span></p>\n\n<p><span style=\"font-size:22px;\"><span style=\"color:#FFFFFF;\"><span style=\"background-color:#000000;\">timberland: bazel build //timberland/{os} | {os}/publish.sh</span></span></span></p>\n\n<p><span style=\"font-size:22px;\"><span style=\"color:#FFFFFF;\"><span style=\"background-color:#000000;\">radix: bazel build jars | gitlab registry {release} {ver}</span></span></span></p>\n\n<p><span style=\"font-size:22px;\"><span style=\"color:#FFFFFF;\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style=\"background-color:#000000;\"> bazel build templates | terraform registry {release} {ver}</span></span><br />\n<span style=\"color:#FFFFFF;\"><em><span style=\"background-color:#000000;\">standardized&nbsp;flow for all components</span></em></span></span></p>\n",
+          "selected": false,
           "scale": {
             "x": 0.8417030567685589,
             "y": 0.8417030567685589
@@ -428,26 +427,28 @@
       "z": 0,
       "selected": false,
       "x": 136,
-      "y": 1,
+      "y": 17,
       "scale": {
         "x": 0.11587078188233654,
         "y": 0.11587078188233654
       },
       "style": {
         "background": "rgba(0, 0, 0, 0)"
-      }
+      },
+      "width": 650,
+      "height": 480
     },
     {
       "components": [
         {
           "type": "TextBox",
           "x": -12,
-          "y": 6,
+          "y": -34,
           "text": "<p><span style=\"font-size:26px;\"><span style=\"color:#FFFFFF;\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">{os}</span></span></span></span></p>\n\n<ul>\n\t<li><span style=\"font-size:26px;\"><span style=\"color:#FFFFFF;\"><span style=\"background-color:#000000;\">/libvirt_config.tmpl</span></span></span></li>\n\t<li><span style=\"font-size:26px;\"><span style=\"color:#FFFFFF;\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">/install_timberland.sh (e.g. apt install timberland)</span></span></span></span></li>\n\t<li><span style=\"font-size:26px;\"><span style=\"color:#FFFFFF;\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">/start_config.yaml (or .tmpl)</span></span></span></span>\n\t<ul>\n\t\t<li><span style=\"font-size:26px;\"><span style=\"color:#FFFFFF;\"><span style=\"background-color:#000000;\">(start/join, default services)</span></span></span></li>\n\t</ul>\n\t</li>\n</ul>\n\n<div style=\"background-color: black\">\n<p><span style=\"font-size:26px;\"><span style=\"color:#FFFFFF;\"><span style=\"font-family:courier new,courier,monospace;\"><span style=\"background-color:#000000;\">terraform apply</span></span></span></span><br />\n<span style=\"font-size:26px;\"><span style=\"color:#FFFFFF;\"><span style=\"font-family:courier new,courier,monospace;\"><span style=\"background-color:#000000;\">./install_timberland</span></span></span></span></p>\n\n<p><span style=\"font-size:26px;\"><span style=\"color:#FFFFFF;\"><span style=\"font-family:courier new,courier,monospace;\"><span style=\"background-color:#000000;\">timberland deploy {release}{version}</span></span></span></span></p>\n\n<p><span style=\"font-size:26px;\"><span style=\"color:#FFFFFF;\"><span style=\"font-family:courier new,courier,monospace;\"><span style=\"background-color:#000000;\">timberland start ./start_config</span></span></span></span></p>\n</div>\n\n<p>&nbsp;</p>\n",
-          "selected": true,
+          "selected": false,
           "scale": {
-            "x": 0.7166152624667909,
-            "y": 0.7166152624667909
+            "x": 0.6268861270424949,
+            "y": 0.6268861270424949
           }
         }
       ],
@@ -468,19 +469,19 @@
       "components": [
         {
           "type": "TextBox",
-          "x": -16,
-          "y": -15,
+          "x": -13,
+          "y": -91,
           "text": "<p><span style=\"color:#FFFFFF;\"><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">the future is procedurally generated:</span></span></span></span></p>\n\n<p><span style=\"color:#FFFFFF;\"><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">phase 3:</span></span></span></span></p>\n\n<ul>\n\t<li><span style=\"color:#FFFFFF;\"><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">random valid easel-dsl protocols</span></span></span></span></li>\n\t<li><span style=\"color:#FFFFFF;\"><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">demo.radix.bio</span></span></span></span></li>\n\t<li><span style=\"color:#FFFFFF;\"><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">random valid OS combination groups</span></span></span></span></li>\n</ul>\n\n<p><span style=\"color:#FFFFFF;\"><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">phase 4</span></span></span></span></p>\n\n<ul>\n\t<li><span style=\"color:#FFFFFF;\"><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">VM is connected to live devices (libvert connects to wireguard, device joins over wg)</span></span></span></span></li>\n\t<li><span style=\"color:#FFFFFF;\"><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">betamax captures and replays network traffic from live device demos for scalacheck (betamax.pem)</span></span></span></span></li>\n\t<li><span style=\"color:#FFFFFF;\"><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\"><span style=\"background-color:#000000;\">&quot;intersect one Gaussian with another Gaussian in n-dimensions&quot;</span></span></span></span></li>\n</ul>\n",
           "selected": true,
           "scale": {
-            "x": 0.9021406727828747,
-            "y": 0.9021406727828747
+            "x": 0.6088960463755052,
+            "y": 0.6088960463755052
           }
         }
       ],
       "type": "Slide",
       "z": 0,
-      "selected": true,
+      "selected": false,
       "x": 339,
       "y": 320,
       "scale": {
@@ -519,17 +520,17 @@
       }
     }
   ],
-  "activeSlide": 3,
+  "activeSlide": 8,
   "slideWidth": 640,
   "slideHeight": 480,
   "style": {
     "background": "radial-gradient(rgba(240, 240, 240, 0.85), rgb(190, 190, 190))"
   },
   "boundingBox": {
-    "top": 182.42033077687512,
-    "right": 653.5803725687351,
-    "bottom": 617.5796692231247,
-    "left": -205.58037256873297
+    "left": -1226.089590189551,
+    "right": 1674.0895901895528,
+    "top": -334.4609612648383,
+    "bottom": 1134.4609612648378
   },
   "defaultSlideStyle": {
     "background": "linear-gradient(135deg, rgba(233,246,253,1) 0%,rgba(211,238,251,1) 100%)"
