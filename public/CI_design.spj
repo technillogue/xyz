@@ -44,8 +44,8 @@
       "type": "Slide",
       "z": 0,
       "selected": false,
-      "x": -1020,
-      "y": 333,
+      "x": -833,
+      "y": 183,
       "scale": {
         "x": 1.4135135428444294,
         "y": 1.4135135428444294
@@ -125,8 +125,8 @@
       "type": "Slide",
       "z": 0,
       "selected": false,
-      "x": -950,
-      "y": 397,
+      "x": -763,
+      "y": 247,
       "scale": {
         "x": 0.2565119013137399,
         "y": 0.2565119013137399
@@ -152,8 +152,8 @@
       "type": "Slide",
       "z": 0,
       "selected": false,
-      "x": 672,
-      "y": 300,
+      "x": 346,
+      "y": 177,
       "scale": {
         "x": 2.8,
         "y": 2.8
@@ -320,12 +320,23 @@
             "y": 0.0017776321007834106,
             "z": 0
           }
+        },
+        {
+          "type": "TextBox",
+          "x": 298,
+          "y": -27,
+          "text": "<p><span style=\"font-size:16px;\">open questions:</span></p>\n\n<ul style=\"line-height: 1\">\n\t<li><span style=\"font-size:16px;\">feedback on all of this and structural alternatives</span></li>\n\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">radically simple dependency management</font></span>\n\t<ul>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">nix? venv? radixlabs/dotfiles + emanate?</font></span></li>\n\t</ul>\n\t</li>\n\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">VM management</font></span>\n\t<ul>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">reproducible and cacheable dep installs</font></span></li>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">tf-libvirt vs nomad-qemu</font></span></li>\n\t</ul>\n\t</li>\n\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">gitlab, autoscaling, profiling, and observability</font></span>\n\t<ul>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">gitlab docker vs binary vs tf provider</font></span></li>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">helpful pprint CI output</font></span></li>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">prometheus?</font></span></li>\n\t</ul>\n\t</li>\n\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">configuration language proliferation deterrence</font></span>\n\t<ul>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">skylark + HCL? s/bash/ammonite-ops?</font></span></li>\n\t</ul>\n\t</li>\n</ul>\n",
+          "selected": false,
+          "scale": {
+            "x": 0.7457865675412321,
+            "y": 0.7457865675412321
+          }
         }
       ],
       "type": "Slide",
       "selected": false,
-      "x": 600,
-      "y": 275,
+      "x": 274,
+      "y": 152,
       "scale": {
         "x": 1.3,
         "y": 1.3
@@ -356,8 +367,8 @@
       ],
       "type": "Slide",
       "selected": false,
-      "x": 301,
-      "y": 89,
+      "x": -25,
+      "y": -34,
       "scale": {
         "x": 0.07506690179086845,
         "y": 0.07506690179086845
@@ -380,8 +391,8 @@
         "x": 0.05,
         "y": 0.05
       },
-      "x": 380,
-      "y": 90
+      "x": 54,
+      "y": -33
     },
     {
       "components": [
@@ -426,8 +437,8 @@
       "type": "Slide",
       "z": 0,
       "selected": false,
-      "x": 466,
-      "y": 87,
+      "x": 140,
+      "y": -36,
       "scale": {
         "x": 0.08875080886663364,
         "y": 0.08875080886663364
@@ -446,8 +457,8 @@
       "type": "Slide",
       "z": 0,
       "selected": false,
-      "x": 594,
-      "y": 229,
+      "x": 268,
+      "y": 106,
       "scale": {
         "x": 0.14319999999999988,
         "y": 0.14319999999999988
@@ -470,8 +481,8 @@
       "type": "Slide",
       "z": 0,
       "selected": false,
-      "x": 808,
-      "y": 388,
+      "x": 482,
+      "y": 265,
       "scale": {
         "x": 0.19323594277265924,
         "y": 0.19323594277265924
@@ -481,9 +492,9 @@
       "components": [
         {
           "type": "TextBox",
-          "x": 142,
-          "y": 81,
-          "text": "<p><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">asides:</span></span></p>\n\n<p><span style=\"font-size: 26px\"><span style=\"font-family:arial,helvetica,sans-serif\">dev workflow:</span></span></p>\n\n<ul>\n\t<li>bazel //release-diff | publish</li>\n\t<li>timberland reinstall --platform={os}&nbsp;/ init</li>\n\t<li>timberland deploy {release}</li>\n\t<li>timberland wipe (fka stop, nuke, betternuke)</li>\n\t<li>timberland reload (diff-based)</li>\n\t<li>4-5 is the magic number</li>\n</ul>\n\n<p>(query, useradd, auth are still valid for IT)</p>\n",
+          "x": 0,
+          "y": 0,
+          "text": "<p><span style=\"font-size:16px;\">open questions:</span></p>\n\n<ul style=\"line-height: 1\">\n\t<li><span style=\"font-size:16px;\">bazel //release-diff | publish</span></li>\n\t<li><span style=\"font-size:16px;\">timberland reinstall --platform={os}&nbsp;/ init</span></li>\n\t<li><span style=\"font-size:16px;\">timberland deploy {release}</span></li>\n\t<li><span style=\"font-size:16px;\">timberland wipe (fka stop, nuke, betternuke)</span></li>\n\t<li><span style=\"font-size:16px;\">timberland reload (diff-based)</span></li>\n</ul>\n\n<p>4-5 is the magic number (query, useradd, auth are still valid for IT)</p>\n",
           "selected": true,
           "scale": {
             "x": 1,
@@ -498,61 +509,24 @@
         "x": 0.44636662668220894,
         "y": 0.44636662668220894
       },
-      "x": 1405,
-      "y": 180,
-      "style": {
-        "background": "rgba(0, 0, 0, 0)"
-      }
-    },
-    {
-      "components": [
-        {
-          "type": "TextBox",
-          "x": 0,
-          "y": 0,
-          "text": "<p><span style=\"font-size:16px;\">open questions:</span></p>\n\n<ul style=\"line-height: 1\">\n\t<li><span style=\"font-size:16px;\">feedback on all of this and structural alternatives</span></li>\n\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">radically simple timberland &amp; radix dependency management</font></span>\n\t<ul>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">nix? venv? radixlabs/dotfiles + emanate?</font></span></li>\n\t</ul>\n\t</li>\n\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">VM management</font></span>\n\t<ul>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">reproducible and cacheable dep installs</font></span></li>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">tf-libvirt vs nomad-qemu</font></span></li>\n\t</ul>\n\t</li>\n\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">gitlab, autoscaling, profiling, and observability</font></span>\n\t<ul>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">gitlab docker vs binary vs tf provider</font></span></li>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">helpful pprint CI output</font></span></li>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">prometheus?</font></span></li>\n\t</ul>\n\t</li>\n\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">configuration language proliferation deterrence</font></span>\n\t<ul>\n\t\t<li><span style=\"font-size:16px;\"><font face=\"arial, helvetica, sans-serif\">skylark + HCL? s/bash/ammonite-ops?</font></span></li>\n\t</ul>\n\t</li>\n</ul>\n",
-          "selected": false,
-          "scale": {
-            "x": 1,
-            "y": 1
-          }
-        }
-      ],
-      "type": "Slide",
-      "z": 0,
-      "selected": true,
-      "x": 870,
-      "y": 140,
-      "rotate": {
-        "z": 0.017453292519943295,
-        "x": 0.08726646259971647,
-        "y": 0
-      },
-      "skew": {
-        "x": 0.0017510633442583412,
-        "y": 0,
-        "z": 0
-      },
-      "scale": {
-        "x": 0.7,
-        "y": 0.7
-      },
+      "x": 1079,
+      "y": 57,
       "style": {
         "background": "rgba(0, 0, 0, 0)"
       }
     }
   ],
-  "activeSlide": 1,
+  "activeSlide": 10,
   "slideWidth": 640,
   "slideHeight": 480,
   "style": {
     "background": "radial-gradient(rgba(240, 240, 240, 0.85), rgb(190, 190, 190))"
   },
   "boundingBox": {
-    "top": 0,
-    "right": 1448,
-    "bottom": 800,
-    "left": -1000
+    "top": -398.10123708858555,
+    "right": 1799.7383398928496,
+    "bottom": 1198.1012370885853,
+    "left": -1351.7383398928482
   },
   "defaultSlideStyle": {
     "background": "linear-gradient(135deg, rgba(233,246,253,1) 0%,rgba(211,238,251,1) 100%)"
