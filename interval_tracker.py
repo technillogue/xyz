@@ -24,9 +24,7 @@ class Counts:
         if not self.log:
             return
         prev_date = (self.log[-1] if reverse else self.log[0]).date()
-        groups = groupby(
-            reversed(self.log) if reverse else self.log, dt.date
-        )
+        groups = groupby(reversed(self.log) if reverse else self.log, dt.date)
         for date, events in groups:
             for missing_day in range(abs(date - prev_date).days - 1):
                 yield 0
@@ -47,7 +45,9 @@ class Counts:
         recent_counts = list(islice(self.count_days(), 7))
         elapsed = dt.now() - self.log[-1]
         return {
-            "elapsed": str(elapsed - timedelta(microseconds=elapsed.microseconds)),
+            "elapsed": str(
+                elapsed - timedelta(microseconds=elapsed.microseconds)
+            ),
             "today": str(recent_counts[0]),
             "last 7 day average": str(
                 round(sum(recent_counts[:7]) / len(recent_counts[:7]), 3)
@@ -64,9 +64,7 @@ def index() -> str:
     if request.args:
         resp = ", ".join(f"{k} is {v}" for k, v in request.args.items())
         return f"you said {resp}. good for you!"
-    return """
-    <!DOCTYPE html>welcome to my webbed sight.<br/><br/>my content is currently at <a href="https://technillogue.github.io">technillogue.github.io</a>
-    """
+    return render_template("index.html")
 
 
 @app.route("/counter", methods=["GET", "POST"])
@@ -76,7 +74,6 @@ def counter() -> str:
     return render_template(
         "main.html", stats=Markup(json2html.convert(counts.asdict()))
     )
-
 
 
 @app.route("/counter/api")
