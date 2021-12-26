@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-12-24T06:58:49.214Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="FlMuhcxvtaJeQ5sLuMLK" version="16.0.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-12-26T02:36:09.720Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.85 Safari/537.36" etag="XYZ-F3WHC1w-9FwI0fTp" version="16.0.3" type="github" pages="2">
   <diagram id="hZx8prxlAFbmcO8pOgQ3" name="Page-1">
     <mxGraphModel dx="798" dy="1536" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -132,7 +132,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="aWJv1XiMmMvNdE38Fi0o" name="proc">
-    <mxGraphModel dx="798" dy="436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="798" dy="401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="s3OohhnY88nYRU9yMQFt-0" />
         <mxCell id="s3OohhnY88nYRU9yMQFt-1" parent="s3OohhnY88nYRU9yMQFt-0" />
@@ -205,11 +205,17 @@
         <mxCell id="TrF3eyV2yV-pWGvx2Ama-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="s3OohhnY88nYRU9yMQFt-1" source="TrF3eyV2yV-pWGvx2Ama-19" target="TrF3eyV2yV-pWGvx2Ama-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="TrF3eyV2yV-pWGvx2Ama-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.941;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="s3OohhnY88nYRU9yMQFt-1" source="TrF3eyV2yV-pWGvx2Ama-19" target="TrF3eyV2yV-pWGvx2Ama-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="TrF3eyV2yV-pWGvx2Ama-19" value="POST image, id" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="s3OohhnY88nYRU9yMQFt-1">
-          <mxGeometry x="510" y="110" width="60" height="30" as="geometry" />
+          <mxGeometry x="450" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TrF3eyV2yV-pWGvx2Ama-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.948;entryY=-0.057;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="s3OohhnY88nYRU9yMQFt-1" source="TrF3eyV2yV-pWGvx2Ama-20" target="TrF3eyV2yV-pWGvx2Ama-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TrF3eyV2yV-pWGvx2Ama-20" value="select group, author, loss..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="s3OohhnY88nYRU9yMQFt-1">
-          <mxGeometry x="240" y="30" width="90" height="30" as="geometry" />
+          <mxGeometry x="320" y="30" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="TrF3eyV2yV-pWGvx2Ama-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="s3OohhnY88nYRU9yMQFt-1" source="TrF3eyV2yV-pWGvx2Ama-2" target="TrF3eyV2yV-pWGvx2Ama-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
